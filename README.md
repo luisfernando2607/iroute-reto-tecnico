@@ -12,6 +12,31 @@ iroute/
 └── docker-compose.yml  SQL Server 2022 local
 ```
 
+## Capturas
+
+| Inicio de sesión | Cargar archivo (previsualización con prevalidación) |
+|---|---|
+| ![Login](docs/screenshots/01-login.png) | ![Previsualización](docs/screenshots/03-upload-preview.png) |
+
+| Resultado de la carga | Procesar: confirmación |
+|---|---|
+| ![Resultado](docs/screenshots/04-upload-result.png) | ![Confirmación](docs/screenshots/05-process-confirm.png) |
+
+| Procesar: resultado y estado por fecha | Cuarentena con motivos |
+|---|---|
+| ![Procesar](docs/screenshots/06-process-result.png) | ![Cuarentena](docs/screenshots/07-quarantine.png) |
+
+<details>
+<summary>Pantalla de inicio sin archivo y vistas móviles en modo oscuro</summary>
+
+![Cargar archivo](docs/screenshots/02-upload.png)
+
+| Procesar (móvil, oscuro) | Cuarentena (móvil, oscuro) |
+|---|---|
+| <img src="docs/screenshots/08-mobile-dark-process.png" width="300" alt="Procesar en móvil"> | <img src="docs/screenshots/09-mobile-dark-quarantine.png" width="300" alt="Cuarentena en móvil"> |
+
+</details>
+
 ## Requisitos
 
 | Herramienta | Versión usada |
